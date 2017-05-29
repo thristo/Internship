@@ -1,6 +1,0 @@
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 1 ReverseInt.MaxValue (Homework)\Day 1 ReverseInt.MaxValue (Homework)\bin\Debug\Day 1 ReverseInt.MaxValue (Homework).exe.config
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 1 ReverseInt.MaxValue (Homework)\Day 1 ReverseInt.MaxValue (Homework)\bin\Debug\Day 1 ReverseInt.MaxValue (Homework).exe
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 1 ReverseInt.MaxValue (Homework)\Day 1 ReverseInt.MaxValue (Homework)\bin\Debug\Day 1 ReverseInt.MaxValue (Homework).pdb
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 1 ReverseInt.MaxValue (Homework)\Day 1 ReverseInt.MaxValue (Homework)\obj\Debug\Day 1 ReverseInt.MaxValue (Homework).csprojResolveAssemblyReference.cache
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 1 ReverseInt.MaxValue (Homework)\Day 1 ReverseInt.MaxValue (Homework)\obj\Debug\Day 1 ReverseInt.MaxValue (Homework).exe
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 1 ReverseInt.MaxValue (Homework)\Day 1 ReverseInt.MaxValue (Homework)\obj\Debug\Day 1 ReverseInt.MaxValue (Homework).pdb
