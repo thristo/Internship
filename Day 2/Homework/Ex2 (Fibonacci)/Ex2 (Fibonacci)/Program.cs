@@ -10,24 +10,26 @@ namespace Ex2__Fibonacci_
     {
         static void Main(string[] args)
         {
+            int length2 = int.Parse(Console.ReadLine());
+            Console.WriteLine(FibonacciSequence(length2));
         }
 
 
 
 
 
-        public static  FibonacciSequence(int length)
+        public static int FibonacciSequence(int length)
         {
             //Fibonacci
             //0,1,1,2,3,5,8,13,21....
             // Program that prints first N items of Fibonacci sequence. N is entered by user
-            int length = int.Parse(Console.ReadLine());
-
+            ;
+            int a = length;
             int first = 0;
             int second = 1;
             int third = 1;
 
-            for (int i = 0; i < length; i++)
+            for (int i = 0; i < a; i++)
             {
                 third = first + second;
                 first = second;
@@ -40,7 +42,7 @@ namespace Ex2__Fibonacci_
                     // third = third - 2 * third; also works?
                 }
 
-                Console.WriteLine(third);
+                return third;
         }
 
 
