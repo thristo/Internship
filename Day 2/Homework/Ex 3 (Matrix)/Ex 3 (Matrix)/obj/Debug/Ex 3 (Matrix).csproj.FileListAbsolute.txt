@@ -1,6 +1,0 @@
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 3 (Matrix)\Ex 3 (Matrix)\bin\Debug\Ex 3 (Matrix).exe.config
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 3 (Matrix)\Ex 3 (Matrix)\bin\Debug\Ex 3 (Matrix).exe
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 3 (Matrix)\Ex 3 (Matrix)\bin\Debug\Ex 3 (Matrix).pdb
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 3 (Matrix)\Ex 3 (Matrix)\obj\Debug\Ex 3 (Matrix).csprojResolveAssemblyReference.cache
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 3 (Matrix)\Ex 3 (Matrix)\obj\Debug\Ex 3 (Matrix).exe
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 3 (Matrix)\Ex 3 (Matrix)\obj\Debug\Ex 3 (Matrix).pdb

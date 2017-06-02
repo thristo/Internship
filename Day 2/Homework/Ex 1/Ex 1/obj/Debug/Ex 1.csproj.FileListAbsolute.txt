@@ -1,6 +1,0 @@
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Ex 1\bin\Debug\Ex 1.exe.config
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Ex 1\obj\Debug\Ex 1.csprojResolveAssemblyReference.cache
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Ex 1\bin\Debug\Ex 1.exe
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Ex 1\bin\Debug\Ex 1.pdb
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Ex 1\obj\Debug\Ex 1.exe
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Ex 1\obj\Debug\Ex 1.pdb

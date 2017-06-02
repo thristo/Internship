@@ -1,1 +1,0 @@
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day1-ReverseNumber\Day1-ReverseNumber\bin\Debug\Day1-ReverseNumber.exe.config

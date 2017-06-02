@@ -1,7 +1,0 @@
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Exercise1Test\bin\Debug\Exercise1Test.dll
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Exercise1Test\bin\Debug\Exercise1Test.pdb
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Exercise1Test\bin\Debug\Ex 1.exe
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Exercise1Test\bin\Debug\Ex 1.pdb
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Exercise1Test\obj\Debug\Exercise1Test.csprojResolveAssemblyReference.cache
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Exercise1Test\obj\Debug\Exercise1Test.dll
-C:\Program Files\Microsoft Visual Studio 11.0\My Projects\Internship\Day 2\Homework\Ex 1\Exercise1Test\obj\Debug\Exercise1Test.pdb
