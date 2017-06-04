@@ -10,96 +10,43 @@ namespace Ex_1
     {
         public static int SumBinaryRepresentations(uint a, uint b)
         {
-            uint firstDecimal = a;
-            uint secondDecimal = b;
-            StringBuilder firstBinary = new StringBuilder();
-            StringBuilder secondBinary = new StringBuilder();
-            while (firstDecimal > 0) //превръщаме числото от int в string
+            return SumBinaryRepresentations(a) + SumBinaryRepresentations(b);
+        }
+
+        public static int SumBinaryRepresentations(uint a, uint b, uint c)
+        {
+            return SumBinaryRepresentations(a, b) + SumBinaryRepresentations(c);
+        }
+
+        public static int SumBinaryRepresentations(uint a, uint b, uint c, uint d)
+        {
+            return SumBinaryRepresentations(a, b, c) + SumBinaryRepresentations(a);
+        }
+
+        private static int SumBinaryRepresentations(uint a)
+        {
+            StringBuilder thirdBinary = new StringBuilder();
+            uint system = 2;
+            while (a > 0)
             {
-                uint remainder = firstDecimal % 2;
-                firstDecimal = firstDecimal / 2;
-                firstBinary = firstBinary.Append(remainder.ToString());
-            }
-            while (secondDecimal > 0) //превръщаме числото от int в string
-            {
-                uint remainderTwo = secondDecimal % 2;
-                secondDecimal = secondDecimal / 2;
-                secondBinary = secondBinary.Append(remainderTwo.ToString());
+                uint remainder = a % system;
+                a = a / system;
+                thirdBinary = thirdBinary.Append(remainder.ToString());
             }
 
-            /*ReverseString(firstBinary); --> produces error
-            ReverseString(secondBinary); --> produces error
-            Console.WriteLine("FirstBinary= " + firstBinary);
-            Console.WriteLine("SecondBinary= " + secondBinary);
-            */
-
-            int sum = 0; //получаваме сумата на цифрите
-            for (int i = 0; i < firstBinary.Length; i++)
+            int sum = 0;
+            for (int i = 0; i < thirdBinary.Length; i++)
             {
-                sum += firstBinary[i] - 48;
-            }
-            for (int i = 0; i < secondBinary.Length; i++)
-            {
-                sum += secondBinary[i] - 48;
+                sum += thirdBinary[i] - 48;
             }
             return sum;
         }
 
-        private StringBuilder ReverseString(StringBuilder s)
+        private static StringBuilder ReverseString(StringBuilder s)
         {
             var c = s.ToString().ToCharArray();
             Array.Reverse(c);
             return new StringBuilder(new string(c));
         }
-    
-
-
-
-    public static int SumBinaryRepresentationsOfThree(uint a, uint b, uint c)
-    {
-            uint firstDecimal = a;
-            uint secondDecimal = b;
-            uint thirdDecimal = c;
-            StringBuilder firstBinary = new StringBuilder();
-            StringBuilder secondBinary = new StringBuilder();
-            StringBuilder thirdBinary = new StringBuilder();
-            while (firstDecimal > 0) //превръщаме числото от int в string
-            {
-                uint remainder = firstDecimal % 2;
-                firstDecimal = firstDecimal / 2;
-                firstBinary = firstBinary.Append(remainder.ToString());
-            }
-            while (secondDecimal > 0) //превръщаме числото от int в string
-            {
-                uint remainderTwo = secondDecimal % 2;
-                secondDecimal = secondDecimal / 2;
-                secondBinary = secondBinary.Append(remainderTwo.ToString());
-            }
-            while (thirdDecimal > 0)
-            {
-                uint remainderThree = thirdDecimal % 2;
-                thirdDecimal = thirdDecimal / 2;
-                thirdBinary = thirdBinary.Append(remainderThree.ToString());
-            }
-            
-            int sum = 0; //получаваме сумата на цифрите
-            for (int i = 0; i < firstBinary.Length; i++)
-            {
-                sum += firstBinary[i] - 48;
-            }
-            for (int i = 0; i < secondBinary.Length; i++)
-            {
-                sum += secondBinary[i] - 48;
-            }
-            for (int i = 0; i < thirdBinary.Length; i++)
-            {
-                sum = sum + thirdBinary[i] - 48;
-            }
-            return sum;
-        }
-
-       
-
-
     }
 }

@@ -11,7 +11,7 @@ namespace Ex_1
         static void Main(string[] args)
         {
            Console.WriteLine(MathProblems.SumBinaryRepresentations(16, 17));
-           Console.WriteLine(MathProblems.SumBinaryRepresentationsOfThree(13, 19, 23));
+           Console.WriteLine(MathProblems.SumBinaryRepresentations(13, 19, 23));
         }
     }
 }

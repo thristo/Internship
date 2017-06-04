@@ -4,32 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ex2__Fibonacci_
+namespace Ex_2__Fibonacci_
 {
-    class Program
+   public class Program
     {
         static void Main(string[] args)
         {
-            int length2 = int.Parse(Console.ReadLine());
-            Console.WriteLine(FibonacciSequence(length2));
+            FibonacciSequence();
         }
+           
 
-
-
-
-
-        public static int FibonacciSequence(int length)
+        public static void FibonacciSequence()  
         {
             //Fibonacci
             //0,1,1,2,3,5,8,13,21....
             // Program that prints first N items of Fibonacci sequence. N is entered by user
-            ;
-            int a = length;
+            
+            int length = int.Parse(Console.ReadLine());
             int first = 0;
             int second = 1;
             int third = 1;
 
-            for (int i = 0; i < a; i++)
+            for (int i = 0; i < length; i++)
             {
                 third = first + second;
                 first = second;
@@ -42,15 +38,13 @@ namespace Ex2__Fibonacci_
                     // third = third - 2 * third; also works?
                 }
 
-                return third;
-        }
-
-
-
-
+                Console.WriteLine(third);
             }
             
 
-        }
-    }
 
+
+        }
+
+    }
+}

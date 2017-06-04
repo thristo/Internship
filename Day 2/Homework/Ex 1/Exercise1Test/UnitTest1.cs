@@ -15,7 +15,7 @@ namespace Exercise1Test
            uint secondDecimalTest = 18;
            int expected = 4;
            int actual = MathProblems.SumBinaryRepresentations(firstDecimalTest, secondDecimalTest);
-           Assert.AreEqual(expected, actual, 0.001, "Fail");                
+           Assert.AreEqual(expected, actual);                
         }
 
 
@@ -27,8 +27,8 @@ namespace Exercise1Test
             uint secondDecimalTest2 = 20;
             uint thirdDecimalTest = 23;
             int expectedSecond = 10;
-            int actualSecond = MathProblems.SumBinaryRepresentationsOfThree(firstDecimalTest2, secondDecimalTest2, thirdDecimalTest);
-            Assert.AreEqual(expectedSecond, actualSecond, 0.001, "Fail");
+            int actualSecond = MathProblems.SumBinaryRepresentations(firstDecimalTest2, secondDecimalTest2, thirdDecimalTest);
+            Assert.AreEqual(expectedSecond, actualSecond);
         }
 
 
