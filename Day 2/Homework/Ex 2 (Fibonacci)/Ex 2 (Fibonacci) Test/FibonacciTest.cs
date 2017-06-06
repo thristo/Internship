@@ -10,10 +10,9 @@ namespace Ex_2__Fibonacci__Test
         [TestMethod]
         public void FibonacciSequenceTest()
         {
-            Program.FibonacciSequence().Length = 5;
-            string actual = Program.FibonacciSequence();
+            string actual = Program.FibonacciSequence(5);
             string expected = "1,-2,3,5,-8";
-            Assert.AreEqual("1,-2,3,5,-8", actual);
+            Assert.AreEqual(expected, actual);
         }
     }
 }

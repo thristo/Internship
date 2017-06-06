@@ -6,27 +6,30 @@ using System.Threading.Tasks;
 
 namespace Ex_2__Fibonacci_
 {
-   public class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            FibonacciSequence();
+            int length = int.Parse(Console.ReadLine());
+            Console.WriteLine(FibonacciSequence(length));
         }
-           
 
-        public static void FibonacciSequence()  
+
+        public static string FibonacciSequence(int length)
         {
             //Fibonacci
             //0,1,1,2,3,5,8,13,21....
             // Program that prints first N items of Fibonacci sequence. N is entered by user
-            
-            int length = int.Parse(Console.ReadLine());
             int first = 0;
             int second = 1;
             int third = 1;
+            string sequence = "";
+            sequence = first.ToString() + "," + second;
+
 
             for (int i = 0; i < length; i++)
             {
+                sequence = sequence + ",";
                 third = first + second;
                 first = second;
                 second = third;
@@ -37,13 +40,10 @@ namespace Ex_2__Fibonacci_
                     third = third * -1;
                     // third = third - 2 * third; also works?
                 }
+                sequence = sequence + third;
 
-                Console.WriteLine(third);
             }
-            
-
-
-
+            return sequence;
         }
 
     }
